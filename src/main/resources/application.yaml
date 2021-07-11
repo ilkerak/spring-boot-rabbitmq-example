@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+  h2:
+    console:
+      enabled: true
+      
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
